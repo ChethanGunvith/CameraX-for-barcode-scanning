@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "221838406335",
+    "firebase_url": "https://airchip-d2161.firebaseio.com",
+    "project_id": "airchip-d2161",
+    "storage_bucket": "airchip-d2161.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221838406335:android:9139bdc84fac908fd10c0a",
+        "android_client_info": {
+          "package_name": "com.chethan.airchip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221838406335-7hub0sjs77t1qjhmom0gq0ti4fujes69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chethan.airchip",
+            "certificate_hash": "8766b43c0d446e9407d5a864e816b844acd9707f"
+          }
+        },
+        {
+          "client_id": "221838406335-0evg991bok3k0rsksm2ka20lf0rfnuua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZDyWEw68EQEGLWqNsLEG4mwDF13i8Mx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221838406335-0evg991bok3k0rsksm2ka20lf0rfnuua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

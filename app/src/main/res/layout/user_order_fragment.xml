@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+		>
+	
+	<data>
+		
+		<import type="androidx.lifecycle.LiveData"/>
+		
+		<import type="com.chethan.airchip.repository.Resource"/>
+		
+		<import type="com.chethan.airchip.repository.Status"/>
+		
+		<import type="com.chethan.airchip.model.Products"/>
+		
+		<import type="java.util.List"/>
+		
+		<variable
+				name="productList"
+				type="LiveData&lt;Resource&lt;List&lt;Products>>>"/>
+	
+	</data>
+	
+	<androidx.constraintlayout.widget.ConstraintLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			tools:context=".MainActivity">
+		
+		
+		<androidx.recyclerview.widget.RecyclerView
+				android:id="@+id/post_list"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginTop="8dp"
+				android:layout_marginBottom="8dp"
+				app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+				tools:listitem="@layout/product_item"/>
+		
+		
+		<include
+				layout="@layout/loading_state"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="8dp"
+				android:layout_marginTop="8dp"
+				android:layout_marginEnd="8dp"
+				android:layout_marginBottom="8dp"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent"
+				app:resource="@{(Resource) productList}"/>
+		
+	
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

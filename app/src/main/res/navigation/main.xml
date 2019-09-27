@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            app:startDestination="@id/scanQRCodeFragment">
+	
+	<fragment
+			android:id="@+id/scanQRCodeFragment"
+			android:name="com.chethan.airchip.view.ScanTheQRCode.ScanQRCodeFragment"
+			android:label="ScanQRCodeFragment">
+		
+		<action
+				android:id="@+id/showOrderList"
+				app:destination="@id/userOrderListFragment"
+				/>
+	</fragment>
+	
+	
+	<fragment
+			android:id="@+id/userOrderListFragment"
+			android:name="com.chethan.airchip.view.ScanTheQRCode.UserOrderListFragment"
+			android:label="UserOrderListFragment">
+		<argument
+				android:name="userOrderList"
+				app:argType="string"/>
+		<action
+				android:id="@+id/action_userOrderListFragment_to_scanQRCodeFragment"
+				app:destination="@id/scanQRCodeFragment"
+				app:popUpTo="@id/scanQRCodeFragment"
+				/>
+	
+	</fragment>
+
+
+</navigation>
