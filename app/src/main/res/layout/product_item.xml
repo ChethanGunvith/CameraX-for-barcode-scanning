@@ -8,7 +8,7 @@
 		
 		<variable
 				name="products"
-				type="com.chethan.airchip.model.Products"/>
+				type="com.chethan.camerax.model.Products"/>
 	</data>
 	
 	<androidx.cardview.widget.CardView

@@ -5,9 +5,9 @@
 	
 	<data>
 		
-		<import type="com.chethan.airchip.repository.Resource"/>
+		<import type="com.chethan.camerax.repository.Resource"/>
 		
-		<import type="com.chethan.airchip.repository.Status"/>
+		<import type="com.chethan.camerax.repository.Status"/>
 		
 		<variable
 				name="resource"

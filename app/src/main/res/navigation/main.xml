@@ -5,7 +5,7 @@
 	
 	<fragment
 			android:id="@+id/scanQRCodeFragment"
-			android:name="com.chethan.airchip.view.ScanTheQRCode.ScanQRCodeFragment"
+			android:name="com.chethan.camerax.view.ScanTheQRCode.ScanQRCodeFragment"
 			android:label="ScanQRCodeFragment">
 		
 		<action
@@ -17,7 +17,7 @@
 	
 	<fragment
 			android:id="@+id/userOrderListFragment"
-			android:name="com.chethan.airchip.view.ScanTheQRCode.UserOrderListFragment"
+			android:name="com.chethan.camerax.view.ScanTheQRCode.UserOrderListFragment"
 			android:label="UserOrderListFragment">
 		<argument
 				android:name="userOrderList"

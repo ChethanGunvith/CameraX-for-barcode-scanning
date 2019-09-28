@@ -10,7 +10,7 @@ apply plugin: 'com.google.gms.google-services'
 
 allOpen {
     // allows mocking for classes w/o directly opening them for release builds
-    annotation 'com.chethan.airchip.testing.OpenClass'
+    annotation 'com.chethan.camerax.testing.OpenClass'
 }
 
 
@@ -18,13 +18,13 @@ android {
     compileSdkVersion build_versions.target_sdk
     buildToolsVersion build_versions.build_tools
     defaultConfig {
-        applicationId "com.chethan.airchip"
+        applicationId "com.chethan.camerax"
         minSdkVersion build_versions.min_sdk
         targetSdkVersion build_versions.target_sdk
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "com.chethan.airchip.util.TestRunner"
+        testInstrumentationRunner "com.chethan.camerax.util.TestRunner"
 
 
     }

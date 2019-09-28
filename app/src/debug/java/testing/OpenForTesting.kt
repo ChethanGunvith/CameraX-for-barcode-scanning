@@ -1,4 +1,4 @@
-package com.chethan.airchip.testing
+package com.chethan.camerax.testing
 
 /**
  * This annotation allows us to open some classes for mocking purposes while they are final in

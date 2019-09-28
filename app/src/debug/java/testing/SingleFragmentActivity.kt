@@ -1,11 +1,11 @@
-package com.chethan.airchip.testing
+package com.chethan.camerax.testing
 
 import android.os.Bundle
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.chethan.airchip.R
+import com.chethan.camerax.R
 
 
 /**

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.chethan.airchip">
+          package="com.chethan.camerax">
 	
 	<uses-permission android:name="android.permission.CAMERA"/>
 	

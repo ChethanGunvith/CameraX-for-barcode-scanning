@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "221838406335",
-    "firebase_url": "https://airchip-d2161.firebaseio.com",
-    "project_id": "airchip-d2161",
-    "storage_bucket": "airchip-d2161.appspot.com"
+    "firebase_url": "https://camerax-d2161.firebaseio.com",
+    "project_id": "camerax-d2161",
+    "storage_bucket": "camerax-d2161.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:221838406335:android:9139bdc84fac908fd10c0a",
         "android_client_info": {
-          "package_name": "com.chethan.airchip"
+          "package_name": "com.chethan.camerax"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "221838406335-7hub0sjs77t1qjhmom0gq0ti4fujes69.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.chethan.airchip",
+            "package_name": "com.chethan.camerax",
             "certificate_hash": "8766b43c0d446e9407d5a864e816b844acd9707f"
           }
         },
